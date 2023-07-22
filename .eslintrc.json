@@ -23,7 +23,7 @@
       "error",
       {
         "singleQuote": true,
-        "jsxSingleQuote": true,
+        "jsxSingleQuote": false,
         "preferTemplate": true,
         "semi": true,
         "quoteProps": "consistent"
