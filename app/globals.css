@@ -2,18 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --black: #3B434E;
-  --white: white;
-  --primary: #7653FC;
-  --red: #FC836D;
-  --green: #1DC37E;
-  --green-light: #C8F8E4;
-}
-
 body {
-  margin: 0;
-  padding: 0;
-  color: var(--black);
-  background: #F5F6F8;
+  @apply m-0 p-0 text-black bg-[#F5F6F8]
 }
