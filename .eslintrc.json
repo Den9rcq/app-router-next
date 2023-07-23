@@ -26,7 +26,8 @@
         "jsxSingleQuote": false,
         "preferTemplate": true,
         "semi": true,
-        "quoteProps": "consistent"
+        "quoteProps": "consistent",
+        "trailingComma": "none"
       }
     ]
   }
