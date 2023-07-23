@@ -1,8 +1,10 @@
 import classNames from 'classnames';
+import ArrowIcon from './arrow.svg';
 import { ButtonProps } from '@/components/Button/Button.props';
 
 export const Button = ({
   appearance,
+  arrow = 'none',
   children,
   className,
   ...props
@@ -18,11 +20,26 @@ export const Button = ({
         appearance == 'ghost'
           ? 'text-black border border-gray-light hover:bg-primary hover:text-white'
           : '',
-        className,
+        className
       )}
       {...props}
     >
       {children}
+      {arrow !== 'none' && (
+        <span
+          className={classNames(
+            'inline-block ml-5 transition-transform',
+            arrow == 'down' ? 'rotate-90' : ''
+          )}
+        >
+          <ArrowIcon
+            className={classNames(
+              appearance == 'primary' ? 'text-white' : '',
+              appearance == 'ghost' ? 'hover:text-white' : ''
+            )}
+          />
+        </span>
+      )}
     </button>
   );
 };
