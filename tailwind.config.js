@@ -22,6 +22,11 @@ module.exports = {
       'green': '#1DC37E',
       'green-light': '#C8F8E4',
       'gray-light': '#EBEBEB'
+    },
+    fontSize: {
+      sm: ['14px', '24px'],
+      base: ['16px', '24px'],
+      lg: ['18px', '29px']
     }
   },
   plugins: []
