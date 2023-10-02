@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Htag, P } from '@/components';
+import { Button, Htag, P, Tag } from '@/components';
 
 export default function Home() {
   return (
@@ -10,6 +10,12 @@ export default function Home() {
       <P size="sm">Маленький</P>
       <P size="base">Средний</P>
       <P size="lg">Большой</P>
+      <Tag color="primary" size="sm">
+        GGasdkaksdks
+      </Tag>
+      <Tag color="red" href="https://www.google.com">
+        Google
+      </Tag>
       <Button appearance="primary" arrow="right">
         Вход
       </Button>

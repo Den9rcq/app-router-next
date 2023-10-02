@@ -24,6 +24,7 @@ module.exports = {
       'gray-light': '#EBEBEB'
     },
     fontSize: {
+      xs: ['12px', '16px'],
       sm: ['14px', '24px'],
       base: ['16px', '24px'],
       lg: ['18px', '29px']
